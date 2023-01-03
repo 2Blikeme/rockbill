@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+.container {
+    display:  flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(186,186,186);
+    background: linear-gradient(180deg, rgba(186,186,186,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+.mail-logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+
+
+.cart-icon {
+    width: 100%;
+    align-self: center;
+    max-width: 50px;
+}
+
+.main {
+    flex: 1;
+    flex-flow: column;
+    margin: 0 50px;
+}
+
+.about {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+h2 {
+    display: block;
+    font-size: 22px ;
+    margin: 40px 0 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: rgb(186,186,186);
+    background: linear-gradient(0deg, rgba(186,186,186,1) 0%, rgba(255,255,255,1) 100%);
+}

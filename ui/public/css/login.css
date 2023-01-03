@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+.container {
+    display:  flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(186,186,186);
+    background: linear-gradient(180deg, rgba(186,186,186,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.mail-logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+
+.cart-icon {
+    width: 100%;
+    align-self: center;
+    max-width: 50px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input-item {
+    padding: 8px;
+}
+
+.submit-btn-login {
+    width: 100%;
+    min-height: 40px;
+}
+
+.input-item {
+    height: 40px;
+}
+
+span {
+    text-align: center;
+}
+
+.login-form-article {
+    font-size: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: rgb(186,186,186);
+    background: linear-gradient(0deg, rgba(186,186,186,1) 0%, rgba(255,255,255,1) 100%);
+}

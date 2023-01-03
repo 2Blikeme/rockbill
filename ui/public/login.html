@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <div class="mail-logo">
+            <a href="./index.html">
+                <img class="bi me-2" width="100%" height="52" src="../src/img/ui/rock-icon.jpg" alt="icon">
+            </a>
+            <span class="">RockBill</span>
+        </div>
+        <nav class="nav-header">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="./store.html" class="nav-link">Merch</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./registration.html" class="nav-link">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./cart.html" class="nav-link">
+                        <img class="cart-icon" src="../src/img/ui/cart-icon.png" alt="" srcset="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="login-form-article">
+                Rockbill
+            </div>
+            <div>
+                <form class="login-form" method="post" action="/">
+                    <div class="login-input-item">
+                        <input type="text" class="input-item" placeholder="First name">
+                    </div>
+                    <div class="login-input-item">
+                        <input type="text" class="input-item" placeholder="Last name">
+                    </div>
+                    <div class="login-input-item">
+                        <input type="email" class="input-item" placeholder="Email" required>
+                    </div>
+                    <div class="login-input-item">
+                        <input type="password" class="input-item" placeholder="Password" required>
+                    </div>
+                    <div class="login-input-item">
+                        <input type="checkbox" class="check-box-remember" id="check-box-remember">
+                        <label for="check-box-remember">Remember me</label>
+                    </div>
+                    <div class="login-input-item">
+                        <input class="submit-btn-login" type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="text-center text-muted">Rockbill, Hihihi-hahaha Inc</p>
+    </footer>
+</div>
+</body>
+</html>
